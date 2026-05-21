@@ -204,3 +204,12 @@ footer {
     url(images/fog1.png)
     repeat-x center/cover;
 }
+
+#foglayer_02 .image01,
+#foglayer_02 .image02,
+#foglayer_03 .image01,
+#foglayer_03 .image02 {
+    background:
+    url(images/fog2.png)
+    repeat-x center/cover;
+}
