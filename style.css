@@ -61,3 +61,8 @@ nav a {
     background:
      url(images/campfire.jpg) center/cover no-repeat;
 }
+
+.overlay {
+    max-width: 700px;
+    padding: 3rem;
+}
