@@ -150,3 +150,8 @@ nav a {
 .card-content {
     padding: 1rem;
 }
+
+.card-content h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
