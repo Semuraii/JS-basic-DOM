@@ -104,3 +104,12 @@ nav a {
     margin: 3rem auto;
     text-align: center;
 }
+
+#result {
+    margin-top: 2rem;
+    padding: 2rem;
+    background: rgba(0,0,0,0.7);
+    border: 1px solid var(--secondary-color);
+    max-width: 500px;
+    margin-inline: auto;
+}
