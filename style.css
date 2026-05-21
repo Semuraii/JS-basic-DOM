@@ -187,3 +187,8 @@ footer {
     opacity: 0.15;
     animation: fogMove 40s linear infinite;
 }
+
+#foglayer_02 {
+    opacity: 0.1;
+    animation: fogMove 25s linear infinite;
+}
