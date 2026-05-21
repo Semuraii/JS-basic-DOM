@@ -26,5 +26,11 @@ body {
 header {
     text-align: center;
     padding: 2rem;
-    border-bottom: 2px solid var(--primary-color)
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.logo {
+    color: var(--primary-color);
+    font-size: 3rem;
+
 }
