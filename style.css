@@ -113,3 +113,9 @@ nav a {
     max-width: 500px;
     margin-inline: auto;
 }
+
+#result img {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 3rem;
+}
