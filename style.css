@@ -71,3 +71,16 @@ nav a {
     color: var(--primary-color);
     font-size: 3rem;
 }
+
+/* BUTTON */
+
+.btn {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 1rem 3rem;
+    background: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
