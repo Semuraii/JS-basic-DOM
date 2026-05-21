@@ -23,6 +23,8 @@ body {
     font-family: var(--font-family);
 }
 
+/* HEADER */
+
 header {
     text-align: center;
     padding: 2rem;
@@ -45,4 +47,16 @@ nav ul {
 nav a {
     color: white;
     text-decoration: none;
+}
+
+/* HERO */
+
+.hero {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background: url(images/campfire.jpg) center/cover no-repeat;
 }
