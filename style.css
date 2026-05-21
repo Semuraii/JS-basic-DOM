@@ -22,3 +22,9 @@ body {
     color: var(--text-color);
     font-family: var(--font-family);
 }
+
+header {
+    text-align: center;
+    padding: 2rem;
+    border-bottom: 2px solid var(--primary-color)
+}
