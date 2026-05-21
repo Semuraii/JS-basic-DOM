@@ -164,3 +164,15 @@ footer {
     margin-top: 3rem;
     border-top: 2px solid var(--primary-color);
 }
+
+/* FOG */
+
+.fog {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300%;
+    height: 100vh;
+    pointer-events: none;
+    z-index: 1;
+}
