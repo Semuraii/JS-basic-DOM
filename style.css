@@ -129,3 +129,10 @@ nav a {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 2rem;
 }
+
+.character-card {
+    background: rgba(0,0,0,0.7);
+    border: 1px solid var(--secondary-color);
+    overflow: hidden;
+    transition: 0.5s;
+}
