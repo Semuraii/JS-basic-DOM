@@ -213,3 +213,15 @@ footer {
     url(images/fog2.png)
     repeat-x center/cover;
 }
+
+/* ANIMATIONS */
+
+@keyframe fogMove {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-33.333%);
+    }
+}
