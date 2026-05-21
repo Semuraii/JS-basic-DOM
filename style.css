@@ -41,3 +41,8 @@ nav ul {
     margin-top: 1rem;
     list-style: none;
 }
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
