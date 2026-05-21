@@ -96,3 +96,11 @@ nav a {
     color: var(--primary-color);
     margin-bottom: 1rem;
 }
+
+/* GENERATOR */
+
+.generator-content {
+    width: 90%;
+    margin: 3rem auto;
+    text-align: center;
+}
