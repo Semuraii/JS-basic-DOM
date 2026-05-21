@@ -216,7 +216,7 @@ footer {
 
 /* ANIMATIONS */
 
-@keyframe fogMove {
+@keyframes fogMove {
     from {
         transform: translateX(0);
     }
