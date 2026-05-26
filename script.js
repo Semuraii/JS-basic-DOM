@@ -59,6 +59,18 @@ generateBtn.addEventListener(
 
 // Function
 
-function generateMatch()
+function generateMatch() {
+    const randomKiller = killers[Math.floor(Math.random() * killers.length)]
+    const randomSurvivor = survivors[Math.floor(Math.random() * survivors.length)]
 
-// Random Killer
+    matchResult.innerHTML = `
+        <div class="match-card">
+            <img src="${randomKiller.image}" alt="${randomKiller.name}" />
+            <h2>Killer: ${randomKiller.name}</h2>
+            <p>Weapon: ${randomKiller.weapon}</p>
+            <p>Difficulty: ${randomKiller.difficulty}</p>
+            <img src="${randomSurvivor.image}" alt="${randomSurvivor.name}" />
+            <h2>Survivor: ${randomSurvivor.name}</h2>
+        </div>
+    `
+}
