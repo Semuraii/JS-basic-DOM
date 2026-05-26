@@ -56,3 +56,9 @@ generateBtn.addEventListener(
     "click",
     generateMatch
 )
+
+// Function
+
+function generateMatch()
+
+// Random Killer
