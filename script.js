@@ -29,5 +29,15 @@ const survivors = [
     {
         name: "Dwight Fairfield",
         image: "images/Dwight_Fairfield1.webp"
+    },
+
+    {
+        name: "Claudette Morel",
+        image: "images/Claudette_Morel1.webp"
+    },
+
+    {
+        name: "Meg Thomas",
+        image: "images/Meg_Thomas1.webp"
     }
 ]
