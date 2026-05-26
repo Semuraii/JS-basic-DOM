@@ -46,3 +46,6 @@ const survivors = [
 
 const generateBtn = 
 document.querySelector("#generateBtn")
+
+const matchResult = 
+document.querySelector("#matchResult")
