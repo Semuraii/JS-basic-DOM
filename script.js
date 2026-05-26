@@ -1,4 +1,4 @@
-//Array for Killers
+// Array for Killers
 
 const killers = [
     {
@@ -23,7 +23,7 @@ const killers = [
     }
 ]
 
-//Array for Survivors
+// Array for Survivors
 
 const survivors = [
     {
@@ -42,10 +42,17 @@ const survivors = [
     }
 ]
 
-//Dom elements
+// Dom elements
 
 const generateBtn = 
 document.querySelector("#generateBtn")
 
 const matchResult = 
 document.querySelector("#matchResult")
+
+// Button event
+
+generateBtn.addEventListener(
+    "click",
+    generateMatch
+)
