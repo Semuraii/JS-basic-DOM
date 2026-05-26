@@ -41,3 +41,8 @@ const survivors = [
         image: "images/Meg_Thomas1.webp"
     }
 ]
+
+//Dom elements
+
+const generateBtn = 
+document.querySelector("#generateBtn")
