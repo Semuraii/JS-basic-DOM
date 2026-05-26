@@ -1,3 +1,5 @@
+//Array for Killers
+
 const killers = [
     {
         name: "Trapper",
@@ -18,5 +20,14 @@ const killers = [
         image: "images/nurse.png",
         weapon: "Blink",
         difficulty: "Vanskelig"
+    }
+]
+
+//Array for Survivors
+
+const survivors = [
+    {
+        name: "Dwight Fairfield",
+        image: "images/Dwight_Fairfield1.webp"
     }
 ]
