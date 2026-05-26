@@ -11,5 +11,12 @@ const killers = [
         image: "images/huntress.png",
         weapon: "Øks",
         difficulty: "Medium"
+    },
+
+    {
+        name: "Nurse",
+        image: "images/nurse.png",
+        weapon: "Blink",
+        difficulty: "Vanskelig"
     }
 ]
