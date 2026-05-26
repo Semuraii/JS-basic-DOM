@@ -45,10 +45,10 @@ const survivors = [
 // Dom elements
 
 const generateBtn = 
-document.querySelector("#generateBtn")
+document.querySelector("#generate-btn")
 
 const matchResult = 
-document.querySelector("#matchResult")
+document.querySelector("#result")
 
 // Button event
 
