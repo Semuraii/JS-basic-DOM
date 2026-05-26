@@ -2,7 +2,14 @@ const killers = [
     {
         name: "Trapper",
         image: "images/trapper.png",
-        weapon: "Bear Trap",
-        difficulty: "Easy"
+        weapon: "Bjørnefelle",
+        difficulty: "Lett"
+    },
+
+    {
+        name: "Huntress",
+        image: "images/huntress.png",
+        weapon: "Øks",
+        difficulty: "Medium"
     }
 ]
