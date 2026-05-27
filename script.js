@@ -74,3 +74,15 @@ function generateMatch() {
         </div>
     `
 }
+
+//History Item
+
+const historyItem =
+document.createElement("p")
+
+historyItem.textContent = 
+`${randomKiller.name}
+vs
+${randomSurvivor}`
+
+
