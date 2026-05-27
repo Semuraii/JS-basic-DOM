@@ -180,7 +180,7 @@ nav a {
     overflow: hidden;
     transition: 
     transform 0.5s ease;
-    box-shadow: 0.5s ease;
+    box-shadow 0.5s ease;
     border-radius: 20px;
 }
 
