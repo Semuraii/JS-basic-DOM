@@ -84,12 +84,17 @@ nav a {
     border: none;
     cursor: pointer;
     border-radius: 50px;
+
+    transistion:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background 0.3s ease;
 }
 
 .button-group {
     display: flex;
     justify-content: center;
-    gap: 3rem;
+    gap: 1rem;
     flex-wrap: wrap;
 }
 
