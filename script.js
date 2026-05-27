@@ -66,6 +66,22 @@ generateBtn.addEventListener(
     generateMatch
 )
 
+resetBtn.addEventListener("click",
+    resetGenerator)
+
+    function resetGenerator() {
+        matchResult.innerHTML = ""
+    }
+
+    clearHistoryBtn.addEventListener("click",
+        clearHistory
+    )
+
+    function clearHistory() {
+        historyContainer.innerHTML = ""
+    }
+
+
 // Function
 
 function generateMatch() {
