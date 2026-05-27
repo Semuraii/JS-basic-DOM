@@ -178,10 +178,8 @@ nav a {
     background: rgba(0,0,0,0.7);
     border: 1px solid var(--secondary-color);
     overflow: hidden;
-    transition: 
-    transform 0.5s ease;
-    box-shadow 0.5s ease;
-    border-radius: 20px;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    border-radius: 20px; 
 }
 
 .character-card:hover {
