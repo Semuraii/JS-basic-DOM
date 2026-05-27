@@ -77,7 +77,7 @@ nav a {
 .btn {
     display: inline-block;
     margin-top: 2rem;
-    padding: 1rem 3rem;
+    padding: 1rem 2rem;
     background: var(--primary-color);
     color: white;
     text-decoration: none;
