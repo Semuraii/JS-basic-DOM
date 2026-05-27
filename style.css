@@ -83,12 +83,13 @@ nav a {
     text-decoration: none;
     border: none;
     cursor: pointer;
+    border-radius: 50px;
 }
 
 .button-group {
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 3rem;
     flex-wrap: wrap;
 }
 
