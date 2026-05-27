@@ -186,6 +186,14 @@ nav a {
     box-shadow 0.4s ease;
 }
 
+.character-card img:hover,
+.match-card img:hover {
+    transform: scale(1.03);
+    box-shadow:
+    0 0 15px rgba(193, 18, 31, 0.7),
+    0 0 30px rgba(193, 18, 31, 0.5);
+}
+
 .card-content {
     padding: 1rem;
 }
