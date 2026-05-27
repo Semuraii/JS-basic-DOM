@@ -75,14 +75,29 @@ function generateMatch() {
     `
 }
 
-//History Item
+// History container
+const history = document.querySelector("#history")
 
-const historyItem =
-document.createElement("p")
+function addHistoryItem(killer, survivor) {
+    const historyItem = document.createElement("p")
+    historyItem.textContent = `${killer.name} vs ${survivor.name}`
+    history.appendChild(historyItem)
+}
 
-historyItem.textContent = 
-`${randomKiller.name}
-vs
-${randomSurvivor}`
+function generateMatch() {
+    const randomKiller = killers[Math.floor(Math.random() * killers.length)]
+    const randomSurvivor = survivors[Math.floor(Math.random() * survivors.length)]
 
+    matchResult.innerHTML = `
+        <div class="match-card">
+            <img src="${randomKiller.image}" alt="${randomKiller.name}" />
+            <h2>Killer: ${randomKiller.name}</h2>
+            <p>Weapon: ${randomKiller.weapon}</p>
+            <p>Difficulty: ${randomKiller.difficulty}</p>
+            <img src="${randomSurvivor.image}" alt="${randomSurvivor.name}" />
+            <h2>Survivor: ${randomSurvivor.name}</h2>
+        </div>
+    `
 
+    addHistoryItem(randomKiller, randomSurvivor)
+} 
