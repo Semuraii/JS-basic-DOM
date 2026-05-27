@@ -47,6 +47,15 @@ const survivors = [
 const generateBtn = 
 document.querySelector("#generate-btn")
 
+const resetBtn =
+document.querySelector("#reset-btn")
+
+const clearHistoryBtn =
+document.querySelector("#clear-history-btn")
+
+const historyContainer = 
+document.querySelector("#history")
+
 const matchResult = 
 document.querySelector("#result")
 
