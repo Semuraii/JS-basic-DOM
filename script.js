@@ -82,6 +82,11 @@ function generateMatch() {
             <h2>Survivor: ${randomSurvivor.name}</h2>
         </div>
     `
+    historyContainer.innerHTML +=`
+    <div class="history-item">
+    ${randomKiller.name} vs ${randomSurvivor.name}
+    </div>
+    `
 }
 
 // History container
