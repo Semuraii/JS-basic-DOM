@@ -118,6 +118,12 @@ nav a {
     margin-bottom: 1rem;
 }
 
+.title h2, .fade-text {
+    text-shadow:
+    0 0 5px rgba(193,18,31,0.7),
+    0 0 10px rgba(193,18,31,0.5);
+}
+
 /* GENERATOR */
 
 .generator-content {
