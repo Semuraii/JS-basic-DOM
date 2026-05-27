@@ -91,6 +91,14 @@ nav a {
     background 0.3s ease;
 }
 
+.btn:hover {
+    transform: translateY(-3px);
+    background: #e01e2d;
+    box-shadow: 0 0 10px var(--primary-color),
+    0 0 20px var(--primary-color),
+    0 0 40px rgba(193, 18, 31, 0.7);
+}
+
 .button-group {
     display: flex;
     justify-content: center;
