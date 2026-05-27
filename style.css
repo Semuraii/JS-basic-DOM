@@ -88,7 +88,7 @@ nav a {
 .button-group {
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
     flex-wrap: wrap;
 }
 
